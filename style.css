@@ -160,6 +160,12 @@ header li + li{
     transition: .1s ease-out;
 }
 
+@media (min-width:1800px){
+    .sidenav ul li a{
+        padding: 35px;
+    }
+}
+
 
 .sidenav li a:hover{
     background-color: #b07dfb;
