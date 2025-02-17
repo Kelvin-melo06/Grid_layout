@@ -230,6 +230,12 @@ header li + li{
     text-align: justify;
 }
 
+@media (min-width:500px) and (max-width:560px){
+    .coontent{
+        width: 100%;
+    }
+}
+
 
 /* ESTILIZAÇÃO DO TÍTULO */
 
