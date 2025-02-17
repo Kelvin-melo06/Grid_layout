@@ -232,7 +232,7 @@ header li + li{
 
 @media (min-width:500px) and (max-width:560px){
     .coontent{
-        width: 100%;
+        width: 80%;
     }
 }
 
