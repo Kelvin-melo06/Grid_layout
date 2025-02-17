@@ -152,7 +152,7 @@ header li + li{
 .sidenav li a{
     display: block;
     min-width: 60px;
-    max-width: 100px;
+    max-width: 150px;
     margin: 0 auto 30px auto;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgba(44,44,44,0.15);
