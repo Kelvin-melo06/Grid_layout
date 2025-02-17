@@ -166,42 +166,26 @@ header li + li{
     padding: 30px;
 }
 
-@keyframes seta{
-    from{
-        right: 30px;
-    }
-    to{
-        right: 20px;
+@media (min-width:400px) and (max-width:560px){
+    .sidenav ul li a{
+        width: 600px;
     }
 }
+
 
 @media (max-width:560px){
     .sidenav ul{
         display: flex;
     }
 
-
     .sidenav{
         padding: 0 30px;
         overflow-x: auto;
-        position: relative;
     }
-
-
-    .sidenav::after{
-        content:'→';
-        position: absolute;
-        top: 5px;
-        color: rgba(0, 0, 0.3);
-        right: 30px;
-        animation: seta .5s ease-in 0s infinite alternate;
-    }
-
 
     .sidenav li{
         flex: 1 0 60px;
     }
-
 
     .sidenav ul li a{
         margin: 30px 20px 30px 20px;
@@ -234,7 +218,7 @@ header li + li{
 @media (min-width:  400px) and (max-width: 560px){
     .content{
         max-width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
 }
 
@@ -304,6 +288,12 @@ p{
 
 .informacoes p{
     font-size: 1.2em;
+}
+
+@media (min-width:400px) and (max-width:560px){
+  .informacoes p{
+    font-size: 17px;
+  }
 }
 
 .column-extended{
@@ -393,8 +383,14 @@ p{
 }
 
 .anuncio-item img{
-    max-width: 100%;
+    max-width: 250px;
     display: block;
+}
+
+@media (min-width:400px) and (max-width:560px){
+    .anuncio-item img{
+        width: 170px;
+    }
 }
 
 
